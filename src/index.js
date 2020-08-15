@@ -3,7 +3,20 @@ import ReactDOM from 'react-dom';
 import './index.css';
 // import * as serviceWorker from './serviceWorker';
 
-//git remote add origin https://github.com/arihant557/react.git
+                                            //git remote add origin https://github.com/arihant557/react.git
+
+// dynamically ussage of city in h1 tag  #5 point.
+
+// let city = "Delhi";
+
+// now doing this same thing by making object of city
+
+let city = {  
+                 state: "Delhi",
+                 country: "India"
+            }
+
+
 
 ReactDOM.render
 (
@@ -28,19 +41,28 @@ ReactDOM.render
         //    3     making list
        // React.createElement("ul" , {style:{color : "red"} } , 
       // React.createElement("li" , null , "english"),
-      // React.createElement("li" , null , "maths"),
-      // React.createElement("li" , null , "science")),
+     // React.createElement("li" , null , "maths"),
+    // React.createElement("li" , null , "science")),
 
 
 
 
       //////   jsx   ///// no need of elements and all babel is handling whole that thing
 
-      <ul>
-        <li>burger</li>
-        <li>pizza</li>
-        <li>fries</li>
-      </ul>,
+        //4
+       // <ul>
+      //   <li>burger</li>
+     //   <li>pizza</li>
+    //   <li>fries</li>
+   // </ul>,
+
+            
+
+                  // 5
+                  //<h1> {city} is the capital of India</h1>,
+
+                  //done this by object...
+                  <h1>{city.state} is the capital of {city.country}</h1>,
   
   
   
