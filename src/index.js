@@ -14,7 +14,7 @@ import './index.css';
 let city = {  
                  state: "Delhi",
                  country: "India"
-            }
+            };
 
 
 
@@ -62,7 +62,7 @@ ReactDOM.render
                   //<h1> {city} is the capital of India</h1>,
 
                   //done this by object...
-                  <h1>{city.state} is the capital of {city.country}</h1>,
+                  <h1 id="heading" className="text">{city.state} is the capital of {city.country}</h1>,
   
   
   
