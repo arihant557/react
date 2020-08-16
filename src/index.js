@@ -26,14 +26,10 @@ import './index.css';
 
 function Hello()
 {
-  return 
-  (
-    <div>
-      <h1>welcome to react peeps</h1>
-      <p>let's do it</p>
-    </div>
+  return <h1>Welcome to react !</h1>
+   
 
-  );
+    
   
 }
 
