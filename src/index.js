@@ -9,12 +9,33 @@ import './index.css';
 
 // let city = "Delhi";
 
-// now doing this same thing by making object of city
 
-let city = {  
-                 state: "Delhi",
-                 country: "India"
-            };
+// now doing this same thing by making object of city
+// let city = {  
+//                  state: "Delhi",
+//                  country: "India"
+//             };
+
+
+//--------------------------------------------------
+
+
+//here comes in work of components from point number 6 before that we were workng in the elements
+//component is basically a function which return some  ui   or for building user interface
+// RULE OF COMPONENT is the first letter should be capital always....otherwise error will come
+
+function Hello()
+{
+  return 
+  (
+    <div>
+      <h1>welcome to react peeps</h1>
+      <p>let's do it</p>
+    </div>
+
+  );
+  
+}
 
 
 
@@ -62,8 +83,17 @@ ReactDOM.render
                   //<h1> {city} is the capital of India</h1>,
 
                   //done this by object...
-                  <h1 id="heading" className="text">{city.state} is the capital of {city.country}</h1>,
+                  //<h1 id="heading" className="text">{city.state} is the capital of {city.country}</h1>,
   
+
+
+    // 6
+    // so here hello as added as a jsx tag...in render
+    //<Hello></Hello>,
+
+   //self closing tag
+   <Hello />,
+
   
   
   document.getElementById('root'),
