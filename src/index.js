@@ -44,6 +44,7 @@ import './index.css';
      <div>
    <h1>This is {props.library}</h1>
    <p>{props.message}</p>  
+   <h3>{props.numbers}</h3>
    </div>
    );  
  }
@@ -104,7 +105,11 @@ ReactDOM.render
 
    //self closing tag
    //7) passing the attribute of the object in this tag and this library props will except dynamic values like : vue 
-   <Hello library="vue" message="Having fun"/>,
+   <Hello
+    library="vue" 
+    message="Having fun"
+    numbers={3}
+    />,
 
   
   
