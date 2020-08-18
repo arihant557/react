@@ -39,7 +39,8 @@ import './index.css';
   // Props, or properties, is an object in React that contains properties about the component.
  // With props we can display dynamic data within a component. 
  function Hello(props){
-  console.log(props)
+                                                       //Object.keys() method returns an array of a given object's here op is ["library", "message", "numbers"]
+  console.log(Object.keys(props));
    return (
      <div>
    <h1>This is {props.library}</h1>
