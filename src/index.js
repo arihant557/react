@@ -23,18 +23,30 @@ import './index.css';
 //here comes in work of components from point number 6 before that we were workng in the elements
 //component is basically a function which return some  ui   or for building user interface
 // RULE OF COMPONENT is the first letter should be capital always....otherwise error will come
+// function Hello()
+// {
+//   return (
+//     <div>
+//   <h1>Welcome to react !</h1>
+//   <p>Let's build</p>
+//   </div>
+//   );  
+// }
 
-function Hello()
-{
-  return (
-    <div>
-  <h1>Welcome to react !</h1>
-  <p>Let's build</p>
-  </div>
-  );
-    
-  
-}
+
+
+   ////  7)  properties or props
+  // Props, or properties, is an object in React that contains properties about the component.
+ // With props we can display dynamic data within a component. 
+ function Hello(props){
+  console.log(props)
+   return (
+     <div>
+   <h1>This is {props.library}</h1>
+   <p>{props.message}</p>  
+   </div>
+   );  
+ }
 
 
 
@@ -91,7 +103,8 @@ ReactDOM.render
     //<Hello></Hello>,
 
    //self closing tag
-   <Hello />,
+   //7) passing the attribute of the object in this tag and this library props will except dynamic values like : vue 
+   <Hello library="vue" message="Having fun"/>,
 
   
   
