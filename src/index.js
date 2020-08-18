@@ -45,7 +45,8 @@ import './index.css';
      <div>
    <h1>This is {props.library}</h1>
    <p>{props.message}</p>  
-   <h3>{props.numbers}</h3>
+   <h3>{props.numbers} total props</h3>
+   <h3>{Object.keys(props).length} total props</h3>
    </div>
    );  
  }
