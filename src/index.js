@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 // import * as serviceWorker from './serviceWorker';
 
-                                            //git remote add origin https://github.com/arihant557/react.git
+                                          /////git remote add origin https://github.com/arihant557/react.git
 
 // dynamically ussage of city in h1 tag  #5 point.
 
