@@ -116,7 +116,7 @@ ReactDOM.render
   
   
   document.getElementById('root'),
-  console.log("running in browser")
+  console.log("running in console")
 
 );
 
